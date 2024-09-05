@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+}
+.parent{
+    width: 50%;
+    height: 350px;
+    background-color: aqua;
+}
+
+.child1{
+    width: 50%;
+    height: 100px;
+    background-color: blueviolet;
+
+}
+.child2{
+    width: 75%;
+    height: 100px;
+    background-color: yellowgreen;
+
+}
+.child3{
+    width: 50vw;
+    height: 100px;
+    background-color: red;
+
+}
+

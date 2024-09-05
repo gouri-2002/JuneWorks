@@ -1,0 +1,36 @@
+
+
+.card-group{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+.border{
+    border: 2px black solid;
+
+}
+ 
+.card{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.card-image>img{
+    width: 100%;
+}
+.card-body{
+    line-height: 25px;
+    text-align: justify;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 25%;
+}

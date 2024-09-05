@@ -1,0 +1,38 @@
+.border{
+    border: 1px solid black;
+}
+
+.header,.footer{
+   
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    padding-left: 60px;
+}
+
+
+
+.footer{
+    margin-top: 450px;
+  
+}
+
+.w-25{
+    width: 25%;
+}
+
+.section{
+   margin-left: auto;
+}
+
+.aside{
+    margin-right: auto;
+}
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

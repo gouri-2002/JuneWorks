@@ -1,0 +1,30 @@
+.parent{
+    width: 75%;
+    height: 500px;
+    border: 1px black solid;
+    background-color: rgb(177, 145, 207);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 10px;
+  
+}
+
+.child{
+    
+    border: 1px black solid;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

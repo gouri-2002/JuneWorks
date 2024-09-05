@@ -1,0 +1,57 @@
+.border{
+    border: 1px black solid;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.parent{
+    width: 50%;
+    min-height: 400px;
+    background-color: rgb(175, 44, 175);
+}
+
+.box1{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(57, 57, 166);
+}
+
+.box2{
+    width: 75%;
+    height: 100px;
+    background-color: green;
+
+}
+
+.box3{
+    width: 100vw;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.box4{
+    width: 50vw;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.box5{
+    width: 400px ;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+/* box1,2,3..5 eggane separate class kodukkanda
+athinu pagaram 
+.parent >:nth-child(1)
+.parent >:nth-child(2)
+.parent >:nth-child(3)
+eggane kodukkm
